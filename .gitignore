@@ -17,3 +17,6 @@
 
 # Ignore the erd diagram.
 erd.pdf
+
+# Ignore the secrets.yml
+config/secrets.yml
