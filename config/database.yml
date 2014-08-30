@@ -14,7 +14,7 @@ default: &default
   encoding: utf8
   pool: 5
   username: root
-  password: a
+  password: yousuckballs
   socket: /var/run/mysqld/mysqld.sock
 
 development:
@@ -48,8 +48,13 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  adapter: postgresql
-  encoding: unicode
+  <<: *default
   database: ganga_production
-  password: <%= ENV['GANGA_DATABASE_PASSWORD'] %>
-  pool: 5
+  username: root
+  password: yousuckballs
+
+students_1415:
+  <<: *default
+  database: students_1415
+  username: root
+  password: yousuckballs

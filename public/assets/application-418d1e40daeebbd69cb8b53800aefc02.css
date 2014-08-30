@@ -1,0 +1,495 @@
+/* line 2, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #A1E9ED;
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* line 9, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.post_div textarea {
+  resize: vertical;
+  border: 2px solid #bebebe;
+}
+
+/* line 14, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.unsigned_msg_div, .rules_div {
+  background: white;
+  padding: 20px;
+  margin: 20px 10px 0 0;
+  width: 49%;
+  float: left;
+}
+
+/* line 22, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.unsigned_msg_div .signin_form {
+  width: 75%;
+}
+
+/* line 29, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.float_left {
+  float: left;
+}
+
+/* line 33, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.float_right {
+  float: right;
+}
+
+/* line 37, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.angry_icon {
+  height: 20px;
+  width: 20px;
+  float: left;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+
+/* line 46, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.angry_icon_dim {
+  height: 20px;
+  width: 20px;
+  float: left;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  opacity: 0.1;
+}
+
+/* line 55, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.angry_icon_dim:hover {
+  opacity: 0.5;
+}
+
+/* line 59, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.search_dropdown {
+  padding: 5px 5px 5px 10px;
+}
+
+/* line 63, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.search_dropdown label {
+  padding: 3px;
+}
+
+/* line 67, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.search_arrow {
+  float: left;
+  padding: 7px 5px 7px 5px;
+  background: blue;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+/* line 75, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.search_div {
+  float: left;
+  width: 100%;
+}
+
+/* Wrapper for page content to push down footer */
+/* line 82, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.container {
+  min-height: 100%;
+  max-width: 1200px;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -50px;
+  /* Pad bottom by footer height */
+  padding: 0 0 75px;
+}
+
+/* line 93, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.bold {
+  font-weight: 900;
+}
+
+/* line 97, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.notification_div {
+  width: 100%;
+  float: left;
+}
+
+/* line 102, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+  display: block;
+}
+
+/* line 105, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.notification_navbar_div {
+  height: inherit;
+  overflow: auto;
+  font-size: 90%;
+  width: 400px;
+  white-space: normal;
+}
+
+/* line 113, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.notifs_container {
+  height: 300px;
+  overflow: auto;
+  padding: 0 0 0 5px;
+}
+
+/* line 118, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.notifs_container li:hover {
+  background: #eee;
+}
+
+/* line 121, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.notifs_container a:hover {
+  text-decoration: none;
+}
+
+/* line 124, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.notifs_container a li {
+  padding: 5px;
+}
+
+/* line 127, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.dropdown ul {
+  border: 2px solid #c4c4c4;
+}
+
+/* line 132, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.signin_div {
+  width: 200px;
+}
+
+/* line 135, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.dropdown li a {
+  white-space: normal;
+}
+
+/* line 139, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.badge_notify {
+  background: #00b0d3;
+  position: relative;
+  top: -10px;
+  left: -6px;
+  font-size: 0.7em;
+  padding: 0 3px 3px 3px;
+  border-radius: 10px;
+  color: black;
+}
+
+/* line 149, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.glyphicon-bell {
+  font-size: 1.2em;
+}
+
+/* line 152, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.delete_btn {
+  color: red;
+  padding: 0px;
+}
+
+/* line 157, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.solved_btn {
+  color: green;
+  padding: 0px;
+}
+
+/* line 162, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.navbar {
+  height: 50px;
+  background-color: white;
+  max-width: 1200px;
+  margin: auto;
+  box-shadow: 0 3px 5px -2px rgba(200, 200, 200, 0.9);
+}
+
+/* line 169, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.navbar a {
+  color: #333A3F;
+}
+
+/* line 173, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.allnotifs_btn a {
+  display: inline;
+}
+
+/* line 176, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.search_box {
+  float: left;
+  border-radius: 0px;
+  margin: 5px 0;
+}
+
+/* line 182, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.sidebar_link {
+  margin: 1px;
+  display: block;
+  background: #f0f0f0;
+  padding: 10px 25px;
+  color: black;
+}
+
+/* line 189, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.sidebar_link:hover {
+  background: #969696;
+  color: white;
+  text-decoration: none;
+}
+
+/* line 195, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.tag_link {
+  padding: 0px 5px;
+}
+
+/* line 199, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.tag_container {
+  margin: 0 0 5px 0;
+}
+
+/* line 202, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.container {
+  padding-top: 50px;
+}
+
+/* line 205, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.footer-container {
+  vertical-align: middle;
+  margin-left: 10px;
+  margin-right: 10px;
+  position-bottom: 0px;
+}
+
+/* Set the fixed height of the footer here */
+/* line 214, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+#footer {
+  height: 50px;
+  margin: auto;
+  max-width: 1200px;
+  background-color: white;
+  box-shadow: 0 -3px 5px -2px rgba(200, 200, 200, 0.9);
+}
+
+/* line 222, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.gravatar {
+  background-color: #323232;
+  height: 100px;
+  width: 100px;
+}
+
+/* line 228, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.signin_form {
+  background: white;
+  padding: 35px;
+  box-shadow: 0 3px 5px -2px rgba(200, 200, 200, 0.9);
+  width: 30%;
+  margin: 5%;
+}
+
+/* line 235, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.signin_form input {
+  border-radius: 0px;
+  margin: 5px;
+}
+
+/* line 240, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.new_post_form {
+  padding: 15px;
+  background: white;
+}
+
+/* line 244, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.new_post_form textarea {
+  resize: vertical;
+  border-radius: 0px;
+}
+
+/* line 248, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.new_post_form input {
+  border-radius: 0px;
+}
+
+/* line 252, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.sample1 {
+  background-color: #faf0fa;
+  width: 100%;
+  height: 150px;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 261, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.review_div {
+  background-color: #c8c8c8;
+  width: 100%;
+  height: 100px;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 270, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.sample2 {
+  background-color: #969696;
+  width: 20%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+/* line 280, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.book_content {
+  width: 60%;
+  float: left;
+  height: 100%;
+  background-color: #fa1432;
+}
+
+/* line 288, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.issue_div {
+  height: 100%;
+  width: 20%;
+  float: left;
+  background-color: #e5e500;
+  position: relative;
+}
+
+/* line 297, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.book_name {
+  background-color: #e51d00;
+  margin: 0;
+  padding: 5px 5px 0px 5px;
+}
+
+/* line 304, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.author_name {
+  background-color: #16e500;
+  margin: 0;
+  padding: 5px 5px 0px 5px;
+}
+
+/* line 311, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.review_hide {
+  background-color: #16e500;
+  margin: 0;
+  padding: 5px 5px 0px 5px;
+  float: right;
+}
+
+/* line 318, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.expand_review {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* line 324, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.wrap_div {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 330, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.form_container {
+  margin: auto;
+  width: 70%;
+  background-color: rb(100, 100, 0);
+}
+
+/* line 336, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.form_heading {
+  margin: auto;
+  width: 73%;
+}
+
+/* line 341, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.post_div {
+  background: white;
+  width: 70%;
+  float: left;
+  padding: 15px 20px 20px 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 0px 5px -2px rgba(100, 100, 100, 0.9);
+  display: none;
+}
+
+/* line 351, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+ul {
+  list-style: none;
+}
+
+/* line 355, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.post_content {
+  padding-bottom: 10px;
+  color: #323232;
+  font-size: 1.2em;
+}
+
+/* line 361, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.post_title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 365, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.post_title a {
+  color: #282828;
+  font-size: 1.2em;
+  font-weight: 900;
+}
+
+/* line 371, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.follow_btn, .unfollow_btn {
+  border-radius: 0px;
+}
+
+/* line 376, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.comment_container input, .comment_container textarea {
+  border-radius: 0px;
+}
+
+/* line 379, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.comment_div {
+  padding: 15px 10px 10px 10px;
+  margin: 0 0 5px 0;
+  background-color: #f0f0f0;
+}
+
+/* line 386, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.sidebar {
+  margin: 15px 0;
+  padding: 15px;
+  width: 28%;
+  float: right;
+  background: white;
+  box-shadow: 0 0px 5px -2px rgba(100, 100, 100, 0.9);
+}
+
+/* line 395, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+li {
+  list-style: none;
+}
+
+/* line 399, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.expand_comment {
+  float: right;
+}
+
+/* line 403, /var/rails/ganga/app/assets/stylesheets/custom.css.scss */
+.load_more {
+  width: 70%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
